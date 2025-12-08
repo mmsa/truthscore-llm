@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "A research library for evaluating truthfulness of LLM outputs based on evidence agreement, self-consistency, and retrieval coverage"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
+license = "MIT"
 authors = [
     {name = "TruthScore Contributors"}
 ]
@@ -16,7 +16,6 @@ keywords = ["llm", "truth", "evaluation", "evidence", "consistency", "research"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
