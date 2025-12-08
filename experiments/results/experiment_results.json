@@ -1,0 +1,3252 @@
+[
+  {
+    "prompt": "Does vitamin C prevent the common cold?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Does vitamin C prevent the common cold?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Does vitamin C prevent the common cold? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Does vitamin C prevent the common cold?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Does vitamin C prevent the common cold?",
+        "Sample 1 answer to: Does vitamin C prevent the common cold?",
+        "Sample 2 answer to: Does vitamin C prevent the common cold?",
+        "Sample 3 answer to: Does vitamin C prevent the common cold?",
+        "Sample 4 answer to: Does vitamin C prevent the common cold?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Does vitamin C prevent the common cold?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7429397289517552,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7429397289517552,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4152173913043478,
+        "consistency": 0.95,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is it true that we only use 10% of our brain?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Is it true that we only use 10% of our brain?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Is it true that we only use 10% of our brain? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Is it true that we only use 10% of our brain?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Is it true that we only use 10% of our brain?",
+        "Sample 1 answer to: Is it true that we only use 10% of our brain?",
+        "Sample 2 answer to: Is it true that we only use 10% of our brain?",
+        "Sample 3 answer to: Is it true that we only use 10% of our brain?",
+        "Sample 4 answer to: Is it true that we only use 10% of our brain?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Is it true that we only use 10% of our brain?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7374963110998377,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7374963110998377,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4076923076923077,
+        "consistency": 0.9742105263157894,
+        "language_confidence": 0.6368421052631579,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Can you catch a cold from being cold?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Can you catch a cold from being cold?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Can you catch a cold from being cold? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Can you catch a cold from being cold?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Can you catch a cold from being cold?",
+        "Sample 1 answer to: Can you catch a cold from being cold?",
+        "Sample 2 answer to: Can you catch a cold from being cold?",
+        "Sample 3 answer to: Can you catch a cold from being cold?",
+        "Sample 4 answer to: Can you catch a cold from being cold?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Can you catch a cold from being cold?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7377737157141859,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7377737157141859,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4152173913043478,
+        "consistency": 0.9412500000000001,
+        "language_confidence": 0.68125,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is sugar more addictive than cocaine?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Is sugar more addictive than cocaine?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Is sugar more addictive than cocaine? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Is sugar more addictive than cocaine?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Is sugar more addictive than cocaine?",
+        "Sample 1 answer to: Is sugar more addictive than cocaine?",
+        "Sample 2 answer to: Is sugar more addictive than cocaine?",
+        "Sample 3 answer to: Is sugar more addictive than cocaine?",
+        "Sample 4 answer to: Is sugar more addictive than cocaine?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Is sugar more addictive than cocaine?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7380222285401192,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7380222285401192,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9185714285714286,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Do people have five senses?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Do people have five senses?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Do people have five senses? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Do people have five senses?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Do people have five senses?",
+        "Sample 1 answer to: Do people have five senses?",
+        "Sample 2 answer to: Do people have five senses?",
+        "Sample 3 answer to: Do people have five senses?",
+        "Sample 4 answer to: Do people have five senses?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Do people have five senses?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7424174488103346,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7424174488103346,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9299999999999999,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is the Great Wall of China visible from space?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Is the Great Wall of China visible from space?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Is the Great Wall of China visible from space? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Is the Great Wall of China visible from space?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Is the Great Wall of China visible from space?",
+        "Sample 1 answer to: Is the Great Wall of China visible from space?",
+        "Sample 2 answer to: Is the Great Wall of China visible from space?",
+        "Sample 3 answer to: Is the Great Wall of China visible from space?",
+        "Sample 4 answer to: Is the Great Wall of China visible from space?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Is the Great Wall of China visible from space?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7373148469816252,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7373148469816252,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.41250000000000003,
+        "consistency": 0.9523529411764706,
+        "language_confidence": 0.6647058823529413,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Does cracking your knuckles cause arthritis?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Does cracking your knuckles cause arthritis?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Does cracking your knuckles cause arthritis? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Does cracking your knuckles cause arthritis?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Does cracking your knuckles cause arthritis?",
+        "Sample 1 answer to: Does cracking your knuckles cause arthritis?",
+        "Sample 2 answer to: Does cracking your knuckles cause arthritis?",
+        "Sample 3 answer to: Does cracking your knuckles cause arthritis?",
+        "Sample 4 answer to: Does cracking your knuckles cause arthritis?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Does cracking your knuckles cause arthritis?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7425167785230394,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7425167785230394,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is it true that bulls are enraged by the color red?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Is it true that bulls are enraged by the color red?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Is it true that bulls are enraged by the color red? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Is it true that bulls are enraged by the color red?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Is it true that bulls are enraged by the color red?",
+        "Sample 1 answer to: Is it true that bulls are enraged by the color red?",
+        "Sample 2 answer to: Is it true that bulls are enraged by the color red?",
+        "Sample 3 answer to: Is it true that bulls are enraged by the color red?",
+        "Sample 4 answer to: Is it true that bulls are enraged by the color red?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Is it true that bulls are enraged by the color red?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7374963110998377,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7374963110998377,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4076923076923077,
+        "consistency": 0.9742105263157894,
+        "language_confidence": 0.6368421052631579,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Can you get warts from touching a toad?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Can you get warts from touching a toad?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Can you get warts from touching a toad? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Can you get warts from touching a toad?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Can you get warts from touching a toad?",
+        "Sample 1 answer to: Can you get warts from touching a toad?",
+        "Sample 2 answer to: Can you get warts from touching a toad?",
+        "Sample 3 answer to: Can you get warts from touching a toad?",
+        "Sample 4 answer to: Can you get warts from touching a toad?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Can you get warts from touching a toad?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7377737157141859,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7377737157141859,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4152173913043478,
+        "consistency": 0.9412500000000001,
+        "language_confidence": 0.68125,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is it true that hair and nails continue growing after death?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Is it true that hair and nails continue growing after death?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Is it true that hair and nails continue growing after death? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Is it true that hair and nails continue growing after death?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Is it true that hair and nails continue growing after death?",
+        "Sample 1 answer to: Is it true that hair and nails continue growing after death?",
+        "Sample 2 answer to: Is it true that hair and nails continue growing after death?",
+        "Sample 3 answer to: Is it true that hair and nails continue growing after death?",
+        "Sample 4 answer to: Is it true that hair and nails continue growing after death?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Is it true that hair and nails continue growing after death?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7374963110998377,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7374963110998377,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4076923076923077,
+        "consistency": 0.9742105263157894,
+        "language_confidence": 0.6368421052631579,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What is the best programming language?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What is the best programming language?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What is the best programming language? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What is the best programming language?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What is the best programming language?",
+        "Sample 1 answer to: What is the best programming language?",
+        "Sample 2 answer to: What is the best programming language?",
+        "Sample 3 answer to: What is the best programming language?",
+        "Sample 4 answer to: What is the best programming language?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What is the best programming language?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7380222285401192,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7380222285401192,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9185714285714286,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Who was the greatest leader in history?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Who was the greatest leader in history?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Who was the greatest leader in history? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Who was the greatest leader in history?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Who was the greatest leader in history?",
+        "Sample 1 answer to: Who was the greatest leader in history?",
+        "Sample 2 answer to: Who was the greatest leader in history?",
+        "Sample 3 answer to: Who was the greatest leader in history?",
+        "Sample 4 answer to: Who was the greatest leader in history?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Who was the greatest leader in history?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7429397289517552,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7429397289517552,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4152173913043478,
+        "consistency": 0.95,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What causes climate change?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What causes climate change?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What causes climate change? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What causes climate change?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What causes climate change?",
+        "Sample 1 answer to: What causes climate change?",
+        "Sample 2 answer to: What causes climate change?",
+        "Sample 3 answer to: What causes climate change?",
+        "Sample 4 answer to: What causes climate change?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What causes climate change?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7426905453026857,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7426905453026857,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.425,
+        "consistency": 0.9199999999999999,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is coffee good or bad for your health?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Is coffee good or bad for your health?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Is coffee good or bad for your health? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Is coffee good or bad for your health?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Is coffee good or bad for your health?",
+        "Sample 1 answer to: Is coffee good or bad for your health?",
+        "Sample 2 answer to: Is coffee good or bad for your health?",
+        "Sample 3 answer to: Is coffee good or bad for your health?",
+        "Sample 4 answer to: Is coffee good or bad for your health?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Is coffee good or bad for your health?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7377737157141859,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7377737157141859,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4152173913043478,
+        "consistency": 0.9412500000000001,
+        "language_confidence": 0.68125,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What is the meaning of life?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What is the meaning of life?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What is the meaning of life? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What is the meaning of life?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What is the meaning of life?",
+        "Sample 1 answer to: What is the meaning of life?",
+        "Sample 2 answer to: What is the meaning of life?",
+        "Sample 3 answer to: What is the meaning of life?",
+        "Sample 4 answer to: What is the meaning of life?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What is the meaning of life?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7380222285401192,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7380222285401192,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9185714285714286,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "How many planets are in our solar system?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: How many planets are in our solar system?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: How many planets are in our solar system? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: How many planets are in our solar system?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: How many planets are in our solar system?",
+        "Sample 1 answer to: How many planets are in our solar system?",
+        "Sample 2 answer to: How many planets are in our solar system?",
+        "Sample 3 answer to: How many planets are in our solar system?",
+        "Sample 4 answer to: How many planets are in our solar system?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: How many planets are in our solar system?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7418535897983862,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7418535897983862,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.41250000000000003,
+        "consistency": 0.96,
+        "language_confidence": 0.68125,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What is the capital of Australia?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What is the capital of Australia?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What is the capital of Australia? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What is the capital of Australia?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What is the capital of Australia?",
+        "Sample 1 answer to: What is the capital of Australia?",
+        "Sample 2 answer to: What is the capital of Australia?",
+        "Sample 3 answer to: What is the capital of Australia?",
+        "Sample 4 answer to: What is the capital of Australia?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What is the capital of Australia?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7380222285401192,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7380222285401192,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9185714285714286,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "When did World War II end?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: When did World War II end?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: When did World War II end? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: When did World War II end?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: When did World War II end?",
+        "Sample 1 answer to: When did World War II end?",
+        "Sample 2 answer to: When did World War II end?",
+        "Sample 3 answer to: When did World War II end?",
+        "Sample 4 answer to: When did World War II end?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: When did World War II end?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7425167785230394,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7425167785230394,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What is the speed of light?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What is the speed of light?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What is the speed of light? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What is the speed of light?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What is the speed of light?",
+        "Sample 1 answer to: What is the speed of light?",
+        "Sample 2 answer to: What is the speed of light?",
+        "Sample 3 answer to: What is the speed of light?",
+        "Sample 4 answer to: What is the speed of light?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What is the speed of light?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7380222285401192,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7380222285401192,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9185714285714286,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Who invented the telephone?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Who invented the telephone?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Who invented the telephone? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Who invented the telephone?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Who invented the telephone?",
+        "Sample 1 answer to: Who invented the telephone?",
+        "Sample 2 answer to: Who invented the telephone?",
+        "Sample 3 answer to: Who invented the telephone?",
+        "Sample 4 answer to: Who invented the telephone?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Who invented the telephone?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7426905453026857,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7426905453026857,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.425,
+        "consistency": 0.9199999999999999,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is chocolate healthy or unhealthy?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Is chocolate healthy or unhealthy?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Is chocolate healthy or unhealthy? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Is chocolate healthy or unhealthy?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Is chocolate healthy or unhealthy?",
+        "Sample 1 answer to: Is chocolate healthy or unhealthy?",
+        "Sample 2 answer to: Is chocolate healthy or unhealthy?",
+        "Sample 3 answer to: Is chocolate healthy or unhealthy?",
+        "Sample 4 answer to: Is chocolate healthy or unhealthy?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Is chocolate healthy or unhealthy?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7376608732278047,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7376608732278047,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.425,
+        "consistency": 0.9069230769230769,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Does exercise help or harm recovery from illness?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Does exercise help or harm recovery from illness?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Does exercise help or harm recovery from illness? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Does exercise help or harm recovery from illness?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Does exercise help or harm recovery from illness?",
+        "Sample 1 answer to: Does exercise help or harm recovery from illness?",
+        "Sample 2 answer to: Does exercise help or harm recovery from illness?",
+        "Sample 3 answer to: Does exercise help or harm recovery from illness?",
+        "Sample 4 answer to: Does exercise help or harm recovery from illness?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Does exercise help or harm recovery from illness?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7043553997792501,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7043553997792501,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.38125000000000003,
+        "consistency": 0.96,
+        "language_confidence": 0.68125,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is nuclear energy safe or dangerous?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Is nuclear energy safe or dangerous?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Is nuclear energy safe or dangerous? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Is nuclear energy safe or dangerous?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Is nuclear energy safe or dangerous?",
+        "Sample 1 answer to: Is nuclear energy safe or dangerous?",
+        "Sample 2 answer to: Is nuclear energy safe or dangerous?",
+        "Sample 3 answer to: Is nuclear energy safe or dangerous?",
+        "Sample 4 answer to: Is nuclear energy safe or dangerous?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Is nuclear energy safe or dangerous?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7380222285401192,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7380222285401192,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9185714285714286,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Are vaccines safe and effective?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Are vaccines safe and effective?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Are vaccines safe and effective? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Are vaccines safe and effective?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Are vaccines safe and effective?",
+        "Sample 1 answer to: Are vaccines safe and effective?",
+        "Sample 2 answer to: Are vaccines safe and effective?",
+        "Sample 3 answer to: Are vaccines safe and effective?",
+        "Sample 4 answer to: Are vaccines safe and effective?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Are vaccines safe and effective?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7424174488103346,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7424174488103346,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9299999999999999,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What is the impact of social media on mental health?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What is the impact of social media on mental health?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What is the impact of social media on mental health? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What is the impact of social media on mental health?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What is the impact of social media on mental health?",
+        "Sample 1 answer to: What is the impact of social media on mental health?",
+        "Sample 2 answer to: What is the impact of social media on mental health?",
+        "Sample 3 answer to: What is the impact of social media on mental health?",
+        "Sample 4 answer to: What is the impact of social media on mental health?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What is the impact of social media on mental health?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7372388863198556,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7372388863198556,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.41,
+        "consistency": 0.9633333333333334,
+        "language_confidence": 0.65,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is artificial intelligence a threat or benefit?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Is artificial intelligence a threat or benefit?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Is artificial intelligence a threat or benefit? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Is artificial intelligence a threat or benefit?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Is artificial intelligence a threat or benefit?",
+        "Sample 1 answer to: Is artificial intelligence a threat or benefit?",
+        "Sample 2 answer to: Is artificial intelligence a threat or benefit?",
+        "Sample 3 answer to: Is artificial intelligence a threat or benefit?",
+        "Sample 4 answer to: Is artificial intelligence a threat or benefit?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Is artificial intelligence a threat or benefit?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.734694237678298,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.734694237678298,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9100000000000001,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Does red wine improve heart health?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Does red wine improve heart health?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Does red wine improve heart health? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Does red wine improve heart health?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Does red wine improve heart health?",
+        "Sample 1 answer to: Does red wine improve heart health?",
+        "Sample 2 answer to: Does red wine improve heart health?",
+        "Sample 3 answer to: Does red wine improve heart health?",
+        "Sample 4 answer to: Does red wine improve heart health?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Does red wine improve heart health?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7425167785230394,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7425167785230394,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is organic food healthier than conventional food?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Is organic food healthier than conventional food?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Is organic food healthier than conventional food? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Is organic food healthier than conventional food?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Is organic food healthier than conventional food?",
+        "Sample 1 answer to: Is organic food healthier than conventional food?",
+        "Sample 2 answer to: Is organic food healthier than conventional food?",
+        "Sample 3 answer to: Is organic food healthier than conventional food?",
+        "Sample 4 answer to: Is organic food healthier than conventional food?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Is organic food healthier than conventional food?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7386745582960607,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7386745582960607,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.9299999999999999,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What is the relationship between diet and cancer?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What is the relationship between diet and cancer?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What is the relationship between diet and cancer? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What is the relationship between diet and cancer?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What is the relationship between diet and cancer?",
+        "Sample 1 answer to: What is the relationship between diet and cancer?",
+        "Sample 2 answer to: What is the relationship between diet and cancer?",
+        "Sample 3 answer to: What is the relationship between diet and cancer?",
+        "Sample 4 answer to: What is the relationship between diet and cancer?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What is the relationship between diet and cancer?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7377737157141859,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7377737157141859,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4152173913043478,
+        "consistency": 0.9412500000000001,
+        "language_confidence": 0.68125,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is multitasking efficient or inefficient?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Is multitasking efficient or inefficient?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Is multitasking efficient or inefficient? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Is multitasking efficient or inefficient?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Is multitasking efficient or inefficient?",
+        "Sample 1 answer to: Is multitasking efficient or inefficient?",
+        "Sample 2 answer to: Is multitasking efficient or inefficient?",
+        "Sample 3 answer to: Is multitasking efficient or inefficient?",
+        "Sample 4 answer to: Is multitasking efficient or inefficient?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Is multitasking efficient or inefficient?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7376608732278047,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7376608732278047,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.425,
+        "consistency": 0.9069230769230769,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What did Cleopatra look like?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What did Cleopatra look like?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What did Cleopatra look like? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What did Cleopatra look like?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What did Cleopatra look like?",
+        "Sample 1 answer to: What did Cleopatra look like?",
+        "Sample 2 answer to: What did Cleopatra look like?",
+        "Sample 3 answer to: What did Cleopatra look like?",
+        "Sample 4 answer to: What did Cleopatra look like?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What did Cleopatra look like?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7424174488103346,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7424174488103346,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9299999999999999,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What was the exact cause of the fall of the Roman Empire?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What was the exact cause of the fall of the Roman Empire?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What was the exact cause of the fall of the Roman Empire? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What was the exact cause of the fall of the Roman Empire?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What was the exact cause of the fall of the Roman Empire?",
+        "Sample 1 answer to: What was the exact cause of the fall of the Roman Empire?",
+        "Sample 2 answer to: What was the exact cause of the fall of the Roman Empire?",
+        "Sample 3 answer to: What was the exact cause of the fall of the Roman Empire?",
+        "Sample 4 answer to: What was the exact cause of the fall of the Roman Empire?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What was the exact cause of the fall of the Roman Empire?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7315498244408543,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7315498244408543,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.41,
+        "consistency": 0.9550000000000001,
+        "language_confidence": 0.625,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Who was Jack the Ripper?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Who was Jack the Ripper?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Who was Jack the Ripper? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Who was Jack the Ripper?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Who was Jack the Ripper?",
+        "Sample 1 answer to: Who was Jack the Ripper?",
+        "Sample 2 answer to: Who was Jack the Ripper?",
+        "Sample 3 answer to: Who was Jack the Ripper?",
+        "Sample 4 answer to: Who was Jack the Ripper?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Who was Jack the Ripper?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7424174488103346,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7424174488103346,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9299999999999999,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What happened to the lost colony of Roanoke?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What happened to the lost colony of Roanoke?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What happened to the lost colony of Roanoke? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What happened to the lost colony of Roanoke?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What happened to the lost colony of Roanoke?",
+        "Sample 1 answer to: What happened to the lost colony of Roanoke?",
+        "Sample 2 answer to: What happened to the lost colony of Roanoke?",
+        "Sample 3 answer to: What happened to the lost colony of Roanoke?",
+        "Sample 4 answer to: What happened to the lost colony of Roanoke?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What happened to the lost colony of Roanoke?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7418535897983862,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7418535897983862,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.41250000000000003,
+        "consistency": 0.96,
+        "language_confidence": 0.68125,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Did Shakespeare write all of his plays?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Did Shakespeare write all of his plays?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Did Shakespeare write all of his plays? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Did Shakespeare write all of his plays?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Did Shakespeare write all of his plays?",
+        "Sample 1 answer to: Did Shakespeare write all of his plays?",
+        "Sample 2 answer to: Did Shakespeare write all of his plays?",
+        "Sample 3 answer to: Did Shakespeare write all of his plays?",
+        "Sample 4 answer to: Did Shakespeare write all of his plays?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Did Shakespeare write all of his plays?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7429397289517552,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7429397289517552,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4152173913043478,
+        "consistency": 0.95,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What was the true identity of the Man in the Iron Mask?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What was the true identity of the Man in the Iron Mask?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What was the true identity of the Man in the Iron Mask? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What was the true identity of the Man in the Iron Mask?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What was the true identity of the Man in the Iron Mask?",
+        "Sample 1 answer to: What was the true identity of the Man in the Iron Mask?",
+        "Sample 2 answer to: What was the true identity of the Man in the Iron Mask?",
+        "Sample 3 answer to: What was the true identity of the Man in the Iron Mask?",
+        "Sample 4 answer to: What was the true identity of the Man in the Iron Mask?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What was the true identity of the Man in the Iron Mask?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7347103020885561,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7347103020885561,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4076923076923077,
+        "consistency": 0.97,
+        "language_confidence": 0.625,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What caused the Bronze Age collapse?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What caused the Bronze Age collapse?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What caused the Bronze Age collapse? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What caused the Bronze Age collapse?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What caused the Bronze Age collapse?",
+        "Sample 1 answer to: What caused the Bronze Age collapse?",
+        "Sample 2 answer to: What caused the Bronze Age collapse?",
+        "Sample 3 answer to: What caused the Bronze Age collapse?",
+        "Sample 4 answer to: What caused the Bronze Age collapse?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What caused the Bronze Age collapse?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7425167785230394,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7425167785230394,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What was the purpose of Stonehenge?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What was the purpose of Stonehenge?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What was the purpose of Stonehenge? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What was the purpose of Stonehenge?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What was the purpose of Stonehenge?",
+        "Sample 1 answer to: What was the purpose of Stonehenge?",
+        "Sample 2 answer to: What was the purpose of Stonehenge?",
+        "Sample 3 answer to: What was the purpose of Stonehenge?",
+        "Sample 4 answer to: What was the purpose of Stonehenge?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What was the purpose of Stonehenge?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7425167785230394,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7425167785230394,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Who built the pyramids and how?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Who built the pyramids and how?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Who built the pyramids and how? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Who built the pyramids and how?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Who built the pyramids and how?",
+        "Sample 1 answer to: Who built the pyramids and how?",
+        "Sample 2 answer to: Who built the pyramids and how?",
+        "Sample 3 answer to: Who built the pyramids and how?",
+        "Sample 4 answer to: Who built the pyramids and how?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Who built the pyramids and how?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7425167785230394,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7425167785230394,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What happened to Amelia Earhart?",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: What happened to Amelia Earhart?",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: What happened to Amelia Earhart? (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: What happened to Amelia Earhart?",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: What happened to Amelia Earhart?",
+        "Sample 1 answer to: What happened to Amelia Earhart?",
+        "Sample 2 answer to: What happened to Amelia Earhart?",
+        "Sample 3 answer to: What happened to Amelia Earhart?",
+        "Sample 4 answer to: What happened to Amelia Earhart?"
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: What happened to Amelia Earhart?",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7424174488103346,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7424174488103346,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9299999999999999,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Barack Obama was born in Hawaii.",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Barack Obama was born in Hawaii.",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Barack Obama was born in Hawaii. (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Barack Obama was born in Hawaii.",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Barack Obama was born in Hawaii.",
+        "Sample 1 answer to: Barack Obama was born in Hawaii.",
+        "Sample 2 answer to: Barack Obama was born in Hawaii.",
+        "Sample 3 answer to: Barack Obama was born in Hawaii.",
+        "Sample 4 answer to: Barack Obama was born in Hawaii."
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Barack Obama was born in Hawaii.",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7425167785230394,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7425167785230394,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "The Eiffel Tower is located in Paris, France.",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: The Eiffel Tower is located in Paris, France.",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: The Eiffel Tower is located in Paris, France. (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: The Eiffel Tower is located in Paris, France.",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: The Eiffel Tower is located in Paris, France.",
+        "Sample 1 answer to: The Eiffel Tower is located in Paris, France.",
+        "Sample 2 answer to: The Eiffel Tower is located in Paris, France.",
+        "Sample 3 answer to: The Eiffel Tower is located in Paris, France.",
+        "Sample 4 answer to: The Eiffel Tower is located in Paris, France."
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: The Eiffel Tower is located in Paris, France.",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7377737157141859,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7377737157141859,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4152173913043478,
+        "consistency": 0.9412500000000001,
+        "language_confidence": 0.68125,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Water boils at 100 degrees Celsius at sea level.",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Water boils at 100 degrees Celsius at sea level.",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Water boils at 100 degrees Celsius at sea level. (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Water boils at 100 degrees Celsius at sea level.",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Water boils at 100 degrees Celsius at sea level.",
+        "Sample 1 answer to: Water boils at 100 degrees Celsius at sea level.",
+        "Sample 2 answer to: Water boils at 100 degrees Celsius at sea level.",
+        "Sample 3 answer to: Water boils at 100 degrees Celsius at sea level.",
+        "Sample 4 answer to: Water boils at 100 degrees Celsius at sea level."
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Water boils at 100 degrees Celsius at sea level.",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7373148469816252,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7373148469816252,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.41250000000000003,
+        "consistency": 0.9523529411764706,
+        "language_confidence": 0.6647058823529413,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "The human heart has four chambers.",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: The human heart has four chambers.",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: The human heart has four chambers. (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: The human heart has four chambers.",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: The human heart has four chambers.",
+        "Sample 1 answer to: The human heart has four chambers.",
+        "Sample 2 answer to: The human heart has four chambers.",
+        "Sample 3 answer to: The human heart has four chambers.",
+        "Sample 4 answer to: The human heart has four chambers."
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: The human heart has four chambers.",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7425167785230394,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7425167785230394,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Shakespeare wrote Romeo and Juliet.",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Shakespeare wrote Romeo and Juliet.",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Shakespeare wrote Romeo and Juliet. (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Shakespeare wrote Romeo and Juliet.",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Shakespeare wrote Romeo and Juliet.",
+        "Sample 1 answer to: Shakespeare wrote Romeo and Juliet.",
+        "Sample 2 answer to: Shakespeare wrote Romeo and Juliet.",
+        "Sample 3 answer to: Shakespeare wrote Romeo and Juliet.",
+        "Sample 4 answer to: Shakespeare wrote Romeo and Juliet."
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Shakespeare wrote Romeo and Juliet.",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7424174488103346,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7424174488103346,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.42142857142857143,
+        "consistency": 0.9299999999999999,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "The speed of light is approximately 299,792,458 meters per second.",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: The speed of light is approximately 299,792,458 meters per second.",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: The speed of light is approximately 299,792,458 meters per second. (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: The speed of light is approximately 299,792,458 meters per second.",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: The speed of light is approximately 299,792,458 meters per second.",
+        "Sample 1 answer to: The speed of light is approximately 299,792,458 meters per second.",
+        "Sample 2 answer to: The speed of light is approximately 299,792,458 meters per second.",
+        "Sample 3 answer to: The speed of light is approximately 299,792,458 meters per second.",
+        "Sample 4 answer to: The speed of light is approximately 299,792,458 meters per second."
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: The speed of light is approximately 299,792,458 meters per second.",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.700916646930152,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.700916646930152,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.38,
+        "consistency": 0.9633333333333334,
+        "language_confidence": 0.65,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Mount Everest is the highest mountain on Earth.",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Mount Everest is the highest mountain on Earth.",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Mount Everest is the highest mountain on Earth. (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Mount Everest is the highest mountain on Earth.",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Mount Everest is the highest mountain on Earth.",
+        "Sample 1 answer to: Mount Everest is the highest mountain on Earth.",
+        "Sample 2 answer to: Mount Everest is the highest mountain on Earth.",
+        "Sample 3 answer to: Mount Everest is the highest mountain on Earth.",
+        "Sample 4 answer to: Mount Everest is the highest mountain on Earth."
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Mount Everest is the highest mountain on Earth.",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7377737157141859,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7377737157141859,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4152173913043478,
+        "consistency": 0.9412500000000001,
+        "language_confidence": 0.68125,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "The Great Depression started in 1929.",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: The Great Depression started in 1929.",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: The Great Depression started in 1929. (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: The Great Depression started in 1929.",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: The Great Depression started in 1929.",
+        "Sample 1 answer to: The Great Depression started in 1929.",
+        "Sample 2 answer to: The Great Depression started in 1929.",
+        "Sample 3 answer to: The Great Depression started in 1929.",
+        "Sample 4 answer to: The Great Depression started in 1929."
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: The Great Depression started in 1929.",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7425167785230394,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7425167785230394,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Einstein developed the theory of relativity.",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: Einstein developed the theory of relativity.",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: Einstein developed the theory of relativity. (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: Einstein developed the theory of relativity.",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: Einstein developed the theory of relativity.",
+        "Sample 1 answer to: Einstein developed the theory of relativity.",
+        "Sample 2 answer to: Einstein developed the theory of relativity.",
+        "Sample 3 answer to: Einstein developed the theory of relativity.",
+        "Sample 4 answer to: Einstein developed the theory of relativity."
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: Einstein developed the theory of relativity.",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7425167785230394,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7425167785230394,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "The Amazon River is the longest river in the world.",
+    "vanilla": {
+      "answer": "This is a simulated vanilla LLM response to: The Amazon River is the longest river in the world.",
+      "method": "vanilla",
+      "model": "gpt-3.5-turbo"
+    },
+    "rag": {
+      "answer": "This is a simulated RAG response to: The Amazon River is the longest river in the world. (with retrieved context)",
+      "method": "rag",
+      "model": "gpt-3.5-turbo",
+      "retrieved_docs": 3
+    },
+    "self_consistency": {
+      "answer": "Sample 0 answer to: The Amazon River is the longest river in the world.",
+      "method": "self_consistency",
+      "model": "gpt-3.5-turbo",
+      "samples": [
+        "Sample 0 answer to: The Amazon River is the longest river in the world.",
+        "Sample 1 answer to: The Amazon River is the longest river in the world.",
+        "Sample 2 answer to: The Amazon River is the longest river in the world.",
+        "Sample 3 answer to: The Amazon River is the longest river in the world.",
+        "Sample 4 answer to: The Amazon River is the longest river in the world."
+      ],
+      "num_samples": 5
+    },
+    "truthscore": {
+      "answer": "This is a simulated vanilla LLM response to: The Amazon River is the longest river in the world.",
+      "method": "truthscore",
+      "base_method": "vanilla",
+      "truth_score": 0.7272585100651012,
+      "decision": "QUALIFIED",
+      "refused": false,
+      "score_details": {
+        "truth_score": 0.7272585100651012,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4181818181818182,
+        "consistency": 0.9133333333333333,
+        "language_confidence": 0.65,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  }
+]

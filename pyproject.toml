@@ -32,6 +32,9 @@ nli = [
     "transformers>=4.0.0",
     "torch>=1.9.0",
 ]
+experiments = [
+    "openai>=1.0.0",
+]
 
 [project.urls]
 Homepage = "https://github.com/mmsa/truthscore-llm"

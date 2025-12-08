@@ -1,0 +1,563 @@
+[
+  {
+    "prompt": "Does vitamin C prevent the common cold?",
+    "vanilla": "Your vanilla LLM answer here",
+    "rag": "Your RAG answer here",
+    "self_consistency": "Your self-consistency answer here",
+    "truthscore": "Your truthscore answer here",
+    "ground_truth": {
+      "answer": "Correct answer if known",
+      "is_correct": true
+    }
+  },
+  {
+    "prompt": "Does vitamin C prevent the common cold?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Is it true that we only use 10% of our brain?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Can you catch a cold from being cold?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Is sugar more addictive than cocaine?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Do people have five senses?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Is the Great Wall of China visible from space?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Does cracking your knuckles cause arthritis?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Is it true that bulls are enraged by the color red?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Can you get warts from touching a toad?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Is it true that hair and nails continue growing after death?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What is the best programming language?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Who was the greatest leader in history?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What causes climate change?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Is coffee good or bad for your health?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What is the meaning of life?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "How many planets are in our solar system?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What is the capital of Australia?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "When did World War II end?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What is the speed of light?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Who invented the telephone?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Is chocolate healthy or unhealthy?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Does exercise help or harm recovery from illness?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Is nuclear energy safe or dangerous?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Are vaccines safe and effective?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What is the impact of social media on mental health?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Is artificial intelligence a threat or benefit?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Does red wine improve heart health?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Is organic food healthier than conventional food?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What is the relationship between diet and cancer?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Is multitasking efficient or inefficient?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What did Cleopatra look like?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What was the exact cause of the fall of the Roman Empire?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Who was Jack the Ripper?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What happened to the lost colony of Roanoke?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Did Shakespeare write all of his plays?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What was the true identity of the Man in the Iron Mask?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What caused the Bronze Age collapse?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What was the purpose of Stonehenge?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Who built the pyramids and how?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "What happened to Amelia Earhart?",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Barack Obama was born in Hawaii.",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "The Eiffel Tower is located in Paris, France.",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Water boils at 100 degrees Celsius at sea level.",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "The human heart has four chambers.",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Shakespeare wrote Romeo and Juliet.",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "The speed of light is approximately 299,792,458 meters per second.",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Mount Everest is the highest mountain on Earth.",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "The Great Depression started in 1929.",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "Einstein developed the theory of relativity.",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  },
+  {
+    "prompt": "The Amazon River is the longest river in the world.",
+    "vanilla": "",
+    "rag": "",
+    "self_consistency": "",
+    "truthscore": "",
+    "ground_truth": {
+      "answer": "",
+      "is_correct": null
+    }
+  }
+]
