@@ -15,22 +15,22 @@ These component scores are aggregated into a single **truth score** (0.0 to 1.0)
 
 ## Installation
 
+### PyPI Installation
+
+The library is available on PyPI and can be installed via:
+
+```bash
+pip install truthscore-llm
+```
+
 ### Development Installation
 
 To install the library in development mode:
 
 ```bash
-git clone <repository-url>
-cd truthscore
+git clone https://github.com/mmsa/truthscore-llm.git
+cd truthscore-llm
 pip install -e .
-```
-
-### Future PyPI Installation
-
-Once published, the library will be installable via:
-
-```bash
-pip install truthscore-llm
 ```
 
 ## Quick Start
@@ -162,11 +162,11 @@ MIT License
 If you use this library in your research, please cite:
 
 ```bibtex
-@software{truthscore2024,
+@software{mostafa2025truthscore,
   title={TruthScore-LLM: A Research Library for Evaluating Truthfulness of LLM Outputs},
-  author={TruthScore Contributors},
-  year={2024},
-  url={https://github.com/yourusername/truthscore-llm}
+  author={Mostafa, Mohamed},
+  year={2025},
+  url={https://github.com/mmsa/truthscore-llm}
 }
 ```
 
