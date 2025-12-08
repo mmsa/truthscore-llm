@@ -1,8 +1,11 @@
 """
-Natural Language Inference (NLI) module for entailment checking.
+Baseline heuristic implementations for Natural Language Inference (NLI).
 
 This module provides functionality to check whether evidence documents
-entail, contradict, or are neutral with respect to a given claim.
+entail, contradict, or are neutral with respect to a given claim. These are
+deterministic and simple by design to support testing and paper examples.
+For real-world usage, replace with production-grade components (e.g.,
+HuggingFace NLI models, trained BART/RoBERTa-based NLI systems, etc.).
 """
 
 from typing import List, Dict

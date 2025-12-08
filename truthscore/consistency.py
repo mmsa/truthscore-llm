@@ -1,8 +1,12 @@
 """
-Consistency module for self-consistency evaluation.
+Baseline heuristic implementations for consistency evaluation.
 
 This module provides functionality to assess the internal consistency
 of an answer, including logical coherence and self-contradiction detection.
+These are deterministic and simple by design to support testing and paper
+examples. For real-world usage, replace with production-grade components
+(e.g., multiple sampling and agreement, logical consistency checking,
+contradiction detection models, etc.).
 """
 
 from typing import List

@@ -1,9 +1,10 @@
 """
-Retrieval module for evidence gathering.
+Baseline heuristic implementations for retrieval.
 
 This module provides functionality to retrieve relevant evidence documents
-for verifying claims. Currently implements a placeholder that returns
-deterministic results for testing purposes.
+for verifying claims. These are deterministic and simple by design to support
+testing and paper examples. For real-world usage, replace with production-grade
+components (e.g., vector search, semantic search engines, etc.).
 """
 
 from typing import List, Dict
