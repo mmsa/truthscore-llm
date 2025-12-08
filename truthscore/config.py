@@ -25,10 +25,10 @@ class TruthScoreConfig:
         sigmoid_center: Center point for sigmoid normalization
     """
     
-    evidence_weight: float = 0.4
-    consistency_weight: float = 0.3
-    coverage_weight: float = 0.2
-    language_weight: float = 0.1
+    evidence_weight: float = 0.6
+    consistency_weight: float = 0.2
+    coverage_weight: float = 0.15
+    language_weight: float = 0.05
     
     accept_threshold: float = 0.75
     qualified_threshold: float = 0.50
