@@ -23,6 +23,6 @@ Research Disclaimer:
 from truthscore.score import TruthScorer
 from truthscore.config import TruthScoreConfig, DEFAULT_CONFIG
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __all__ = ['TruthScorer', 'TruthScoreConfig', 'DEFAULT_CONFIG']
 

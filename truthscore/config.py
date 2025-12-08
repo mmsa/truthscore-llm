@@ -31,7 +31,7 @@ class TruthScoreConfig:
     language_weight: float = 0.05
     
     accept_threshold: float = 0.75
-    qualified_threshold: float = 0.50
+    qualified_threshold: float = 0.55
     
     sigmoid_steepness: float = 10.0
     sigmoid_center: float = 0.5
