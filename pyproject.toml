@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "truthscore-llm"
-version = "0.1.3"
+version = "0.1.4"
 description = "A research library for evaluating truthfulness of LLM outputs based on evidence agreement, self-consistency, and retrieval coverage"
 readme = "README.md"
 requires-python = ">=3.8"
