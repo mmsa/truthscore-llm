@@ -8,7 +8,6 @@ version = "0.1.0"
 description = "A research library for evaluating truthfulness of LLM outputs based on evidence agreement, self-consistency, and retrieval coverage"
 readme = "README.md"
 requires-python = ">=3.8"
-license = "MIT"
 authors = [
     {name = "TruthScore Contributors"}
 ]
