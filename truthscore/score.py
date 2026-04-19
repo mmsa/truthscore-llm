@@ -59,6 +59,16 @@ class TruthScorer:
         self._claim_extractor = claim_extractor or extract_claims_sentence
         self._sample_generator = sample_generator
 
+    @property
+    def retriever(self) -> EvidenceRetriever:
+        """Evidence backend (e.g. ``TfidfPassageRetriever``, ``WikipediaRetriever``)."""
+        return self._retriever
+
+    @property
+    def verifier(self) -> ClaimVerifier:
+        """Claim judge (e.g. ``OpenAIClaimVerifier``, ``SimilarityEvidenceVerifier``)."""
+        return self._verifier
+
     def _make_decision(self, truth_score: float) -> str:
         if truth_score >= self.config.accept_threshold:
             return "ACCEPT"

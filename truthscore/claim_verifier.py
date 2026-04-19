@@ -10,7 +10,6 @@ from __future__ import annotations
 import json
 import os
 import re
-from abc import ABC, abstractmethod
 from typing import Any, Dict, List, Optional, Protocol, Sequence
 
 from truthscore.types import ClaimLabel, ClaimRecord

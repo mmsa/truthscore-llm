@@ -28,6 +28,18 @@ def _cosine_sparse(a: Counter, b: Counter) -> float:
     return dot / (na * nb)
 
 
+def pairwise_token_cosine(a: str, b: str) -> float:
+    """
+    Cosine similarity on token counts only (no external corpus).
+
+    Used e.g. by ``WikipediaRetriever.similarity`` so ``SimilarityEvidenceVerifier``
+    can score claim vs passage without a TF–IDF index over a static corpus.
+    """
+    ca = Counter(_tokens(a))
+    cb = Counter(_tokens(b))
+    return _cosine_sparse(ca, cb)
+
+
 class TfidfIndex:
     """In-memory TF–IDF vectors for a fixed passage corpus."""
 

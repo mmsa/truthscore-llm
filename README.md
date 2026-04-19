@@ -113,6 +113,82 @@ truthscore/
 └── setup.cfg            # Setuptools configuration
 ```
 
+## Evidence grounding (replacing `DEFAULT_PASSAGES`)
+
+The bundled `truthscore.default_corpus.DEFAULT_PASSAGES` is a **small demo seed**
+so the default `TruthScorer()` has something to retrieve against. It does **not**
+represent “the world,” Wikipedia, or scholarly consensus.
+
+For real use, you supply evidence from a source that matches your risk and domain:
+
+| Source | Typical use | Caveats |
+|--------|-------------|---------|
+| **Wikipedia** (API or dumps) | Broad encyclopedic facts | Not authoritative for medical/legal edge cases; latency and licensing |
+| **Semantic Scholar / OpenAlex / PubMed** | Papers, metadata, abstracts | Coverage varies; full text often paywalled |
+| **Web search APIs** | Fresh, wide recall | Noisy snippets; ranking ≠ truth |
+| **Your documents** | Policies, FAQs, internal KB | Best when “truth” is defined by your org |
+
+Wire your corpus into a retriever (same interface as the default TF–IDF retriever):
+
+```python
+from truthscore import TruthScorer, TfidfPassageRetriever, load_passages_from_file
+
+passages = load_passages_from_file("/path/to/passages.jsonl")  # or build list in code
+scorer = TruthScorer(retriever=TfidfPassageRetriever(passages))
+```
+
+For large-scale semantic search, install optional retrieval extras and use
+`build_faiss_retriever` from `truthscore.retrieve`, or implement a small class with
+`retrieve(self, query: str, top_k: int) -> list[dict]` that calls any search API
+and returns dicts with at least `"text"` (and ideally `"source"`, `"relevance"`).
+
+Pair a serious corpus with a serious verifier (e.g. `OpenAIClaimVerifier` under
+the optional `judge` extra), not the default similarity-only bootstrap judge.
+
+## Production mode
+
+`create_production_scorer()` wires **real retrieval** (live **Wikipedia** via the
+MediaWiki API, or a **file-backed corpus**) with a **default claim judge that does
+not call any cloud LLM**: it uses ``SimilarityEvidenceVerifier`` (lexical /
+structural checks over retrieved passages). No API keys are required for that
+default path.
+
+```bash
+pip install truthscore-llm
+# Recommended when using Wikipedia:
+export TRUTHSCORE_USER_AGENT="MyProduct/1.0 (https://example.com; contact@example.com)"
+```
+
+| Variable | Role |
+|----------|------|
+| `TRUTHSCORE_EVIDENCE_MODE` | `wikipedia` (default) or `corpus` |
+| `TRUTHSCORE_CORPUS_PATH` | Required for `corpus`: `.jsonl` or `.txt` passages |
+| `TRUTHSCORE_JUDGE` | `similarity` (default) or optional `openai` |
+| `TRUTHSCORE_WIKIPEDIA_LANG` | Wikipedia language code (default `en`) |
+
+Optional **OpenAI-compatible** chat judge (only if you set `TRUTHSCORE_JUDGE=openai`):
+
+```bash
+pip install 'truthscore-llm[judge]'
+export OPENAI_API_KEY="sk-..."
+# optional: OPENAI_BASE_URL, TRUTHSCORE_MODEL
+```
+
+```python
+from truthscore import create_production_scorer, TruthScorer
+from truthscore.claim_verifier import CallableClaimVerifier  # or your own class
+
+# Default: Wikipedia + similarity judge (no OpenAI)
+scorer = create_production_scorer()
+
+# Your own verifier (any local model, HTTP API, etc.)
+scorer = create_production_scorer(verifier=CallableClaimVerifier(my_fn))
+
+out = scorer.score("What is the capital of France?", "The capital of France is Paris.")
+```
+
+See `truthscore/production.py` and `examples/production_example.py`.
+
 ## Running Tests
 
 ```bash
