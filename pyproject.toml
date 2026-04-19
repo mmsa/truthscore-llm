@@ -12,6 +12,7 @@ dependencies = []
 authors = [
     {name = "TruthScore Contributors"}
 ]
+license = {text = "MIT"}
 keywords = ["llm", "truth", "evaluation", "evidence", "consistency", "research"]
 classifiers = [
     "Development Status :: 3 - Alpha",

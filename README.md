@@ -109,8 +109,7 @@ truthscore/
 ├── tests/               # Unit tests
 │   └── test_score.py
 ├── README.md            # This file
-├── pyproject.toml       # Package metadata
-└── setup.cfg            # Setuptools configuration
+└── pyproject.toml       # Package metadata
 ```
 
 ## Evidence grounding (replacing `DEFAULT_PASSAGES`)
