@@ -4,10 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "truthscore-llm"
-version = "0.1.4"
-description = "A research library for evaluating truthfulness of LLM outputs based on evidence agreement, self-consistency, and retrieval coverage"
+version = "0.2.0"
+description = "Claim-grounded truth evaluation for LLM outputs: retrieval, per-claim verification, and explicit risk signals"
 readme = "README.md"
 requires-python = ">=3.8"
+dependencies = []
 authors = [
     {name = "TruthScore Contributors"}
 ]
@@ -31,6 +32,14 @@ dev = [
 nli = [
     "transformers>=4.0.0",
     "torch>=1.9.0",
+]
+judge = [
+    "openai>=1.0.0",
+]
+retrieval = [
+    "faiss-cpu>=1.7.4",
+    "numpy>=1.20.0",
+    "sentence-transformers>=2.2.0",
 ]
 
 [project.urls]
