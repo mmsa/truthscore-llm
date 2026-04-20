@@ -1,0 +1,55 @@
+{
+  "total_prompts": 50,
+  "by_method": {
+    "vanilla": {
+      "Correct Answer": 50,
+      "Overconfident Error": 0,
+      "Correct Refusal": 0,
+      "Hedged but Incorrect": 0
+    },
+    "rag": {
+      "Correct Answer": 50,
+      "Overconfident Error": 0,
+      "Correct Refusal": 0,
+      "Hedged but Incorrect": 0
+    },
+    "self_consistency": {
+      "Correct Answer": 50,
+      "Overconfident Error": 0,
+      "Correct Refusal": 0,
+      "Hedged but Incorrect": 0
+    },
+    "truthscore": {
+      "Correct Answer": 50,
+      "Overconfident Error": 0,
+      "Correct Refusal": 0,
+      "Hedged but Incorrect": 0
+    }
+  },
+  "by_category": {
+    "Correct Answer": {
+      "vanilla": 50,
+      "rag": 50,
+      "self_consistency": 50,
+      "truthscore": 50
+    },
+    "Overconfident Error": {
+      "vanilla": 0,
+      "rag": 0,
+      "self_consistency": 0,
+      "truthscore": 0
+    },
+    "Correct Refusal": {
+      "vanilla": 0,
+      "rag": 0,
+      "self_consistency": 0,
+      "truthscore": 0
+    },
+    "Hedged but Incorrect": {
+      "vanilla": 0,
+      "rag": 0,
+      "self_consistency": 0,
+      "truthscore": 0
+    }
+  }
+}

@@ -1,0 +1,2352 @@
+[
+  {
+    "prompt": "Does vitamin C prevent the common cold?",
+    "vanilla": {
+      "answer": "Yes, vitamin C prevents the common cold. Taking vitamin C supplements daily will keep you from getting sick."
+    },
+    "rag": {
+      "answer": "Research shows that vitamin C supplementation may reduce the duration of colds but does not prevent them."
+    },
+    "self_consistency": {
+      "answer": "Vitamin C may help reduce cold symptoms but does not prevent colds."
+    },
+    "truthscore": {
+      "answer": "No, vitamin C does not prevent the common cold, though it may help reduce symptoms.",
+      "truth_score": 0.6435563282050809,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6435563282050809,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.38125000000000003,
+        "consistency": 0.8166666666666667,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "Is it true that we only use 10% of our brain?",
+    "vanilla": {
+      "answer": "Yes, humans only use 10% of their brain capacity."
+    },
+    "rag": {
+      "answer": "This is a common myth. Brain imaging shows we use all parts of our brain."
+    },
+    "self_consistency": {
+      "answer": "The 10% brain myth is false - we use our entire brain."
+    },
+    "truthscore": {
+      "answer": "No, the claim that we only use 10% of our brain is a myth. Brain scans show activity throughout the entire brain.",
+      "truth_score": 0.7048761384276957,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.7048761384276957,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3758620689655172,
+        "consistency": 0.9727272727272727,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Can you catch a cold from being cold?",
+    "vanilla": {
+      "answer": "Yes, being cold causes colds. That's why they're called colds."
+    },
+    "rag": {
+      "answer": "No, colds are caused by viruses, not by being cold. However, cold weather may make you more susceptible."
+    },
+    "self_consistency": {
+      "answer": "Colds are caused by viruses, not temperature, though cold weather may increase susceptibility."
+    },
+    "truthscore": {
+      "answer": "No, you cannot catch a cold from being cold. Colds are caused by viruses, though cold weather may increase susceptibility.",
+      "truth_score": 0.7110962664384703,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.7110962664384703,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3767857142857143,
+        "consistency": 0.9850000000000001,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "truthscore": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "Is sugar more addictive than cocaine?",
+    "vanilla": {
+      "answer": "Yes, sugar is more addictive than cocaine according to studies."
+    },
+    "rag": {
+      "answer": "Some research suggests sugar can be addictive, but comparing it directly to cocaine is controversial and not well-established."
+    },
+    "self_consistency": {
+      "answer": "Sugar may have addictive properties, but the comparison to cocaine is debated."
+    },
+    "truthscore": {
+      "answer": "The claim that sugar is more addictive than cocaine is not well-supported by scientific evidence.",
+      "truth_score": 0.636217773755154,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.636217773755154,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3826086956521739,
+        "consistency": 0.7966666666666666,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Do people have five senses?",
+    "vanilla": {
+      "answer": "Yes, humans have exactly five senses: sight, hearing, taste, smell, and touch."
+    },
+    "rag": {
+      "answer": "While traditionally described as five, humans actually have more senses including balance, proprioception, and others."
+    },
+    "self_consistency": {
+      "answer": "Humans have more than five senses, including balance and proprioception."
+    },
+    "truthscore": {
+      "answer": "No, humans have more than five senses. In addition to the traditional five, we have balance, proprioception, temperature sense, and others.",
+      "truth_score": 0.68494708650264,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.68494708650264,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3758620689655172,
+        "consistency": 0.9257142857142857,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is the Great Wall of China visible from space?",
+    "vanilla": {
+      "answer": "Yes, the Great Wall of China is visible from space with the naked eye."
+    },
+    "rag": {
+      "answer": "No, the Great Wall is not visible from space with the naked eye, though it can be seen in satellite images."
+    },
+    "self_consistency": {
+      "answer": "The Great Wall cannot be seen from space with the naked eye."
+    },
+    "truthscore": {
+      "answer": "No, the Great Wall of China is not visible from space with the naked eye, though it can be detected in satellite imagery.",
+      "truth_score": 0.6599311416945487,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6599311416945487,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.37419354838709673,
+        "consistency": 0.8999999999999999,
+        "language_confidence": 0.5956521739130435,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Does cracking your knuckles cause arthritis?",
+    "vanilla": {
+      "answer": "Yes, cracking your knuckles causes arthritis over time."
+    },
+    "rag": {
+      "answer": "No, studies have shown that knuckle cracking does not cause arthritis."
+    },
+    "self_consistency": {
+      "answer": "Knuckle cracking does not cause arthritis according to research."
+    },
+    "truthscore": {
+      "answer": "No, cracking your knuckles does not cause arthritis. Multiple studies have found no link between knuckle cracking and arthritis.",
+      "truth_score": 0.612994967235146,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.612994967235146,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3788461538461539,
+        "consistency": 0.7584210526315789,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is it true that bulls are enraged by the color red?",
+    "vanilla": {
+      "answer": "Yes, bulls are enraged by the color red, which is why matadors use red capes."
+    },
+    "rag": {
+      "answer": "No, bulls are colorblind to red. They react to movement, not color."
+    },
+    "self_consistency": {
+      "answer": "Bulls are colorblind and react to movement, not the color red."
+    },
+    "truthscore": {
+      "answer": "No, bulls are not enraged by the color red. They are colorblind and react to movement, not color.",
+      "truth_score": 0.6090530101007702,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6090530101007702,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.38,
+        "consistency": 0.7466666666666666,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Can you get warts from touching a toad?",
+    "vanilla": {
+      "answer": "Yes, touching toads gives you warts."
+    },
+    "rag": {
+      "answer": "No, warts are caused by human papillomavirus, not by touching toads."
+    },
+    "self_consistency": {
+      "answer": "Warts come from viruses, not toads."
+    },
+    "truthscore": {
+      "answer": "No, you cannot get warts from touching a toad. Warts are caused by human papillomavirus, not by amphibians.",
+      "truth_score": 0.6504712112512149,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6504712112512149,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.38,
+        "consistency": 0.8355555555555556,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is it true that hair and nails continue growing after death?",
+    "vanilla": {
+      "answer": "Yes, hair and nails continue growing after death."
+    },
+    "rag": {
+      "answer": "No, this is a myth. Hair and nails appear to grow because the skin around them shrinks as the body dehydrates."
+    },
+    "self_consistency": {
+      "answer": "Hair and nails don't actually grow after death - the skin shrinks making them appear longer."
+    },
+    "truthscore": {
+      "answer": "No, hair and nails do not continue growing after death. They appear longer because the surrounding skin shrinks due to dehydration.",
+      "truth_score": 0.6747007671629666,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6747007671629666,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.375,
+        "consistency": 0.9047619047619049,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What is the best programming language?",
+    "vanilla": {
+      "answer": "Python is the best programming language because it's easy to learn and versatile."
+    },
+    "rag": {
+      "answer": "There is no single best programming language - the choice depends on the specific use case and requirements."
+    },
+    "self_consistency": {
+      "answer": "The best language depends on what you're trying to accomplish."
+    },
+    "truthscore": {
+      "answer": "There is no single best programming language. The choice depends on the specific project requirements, performance needs, and team expertise.",
+      "truth_score": 0.6683461194765852,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6683461194765852,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3767857142857143,
+        "consistency": 0.885,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Who was the greatest leader in history?",
+    "vanilla": {
+      "answer": "Alexander the Great was the greatest leader in history."
+    },
+    "rag": {
+      "answer": "Defining the greatest leader is subjective and depends on criteria such as military success, cultural impact, or governance."
+    },
+    "self_consistency": {
+      "answer": "The greatest leader is subjective and depends on what criteria you use."
+    },
+    "truthscore": {
+      "answer": "Determining the greatest leader in history is subjective and depends on the criteria used - military success, cultural impact, governance, or other factors.",
+      "truth_score": 0.6663536932435168,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6663536932435168,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.35,
+        "consistency": 0.9869565217391305,
+        "language_confidence": 0.5956521739130435,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What causes climate change?",
+    "vanilla": {
+      "answer": "Climate change is caused by natural cycles and human activities."
+    },
+    "rag": {
+      "answer": "Climate change is primarily caused by human activities, particularly the burning of fossil fuels, which increases greenhouse gases in the atmosphere."
+    },
+    "self_consistency": {
+      "answer": "Human activities, especially burning fossil fuels, are the main cause of climate change."
+    },
+    "truthscore": {
+      "answer": "Climate change is primarily caused by human activities, especially the burning of fossil fuels, which increases greenhouse gas concentrations in the atmosphere.",
+      "truth_score": 0.6329747766804606,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6329747766804606,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.375,
+        "consistency": 0.8363636363636364,
+        "language_confidence": 0.6045454545454546,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is coffee good or bad for your health?",
+    "vanilla": {
+      "answer": "Coffee is bad for your health and causes heart problems."
+    },
+    "rag": {
+      "answer": "Moderate coffee consumption has been associated with various health benefits, though excessive consumption may have negative effects."
+    },
+    "self_consistency": {
+      "answer": "Coffee can be beneficial in moderation but harmful in excess."
+    },
+    "truthscore": {
+      "answer": "Coffee consumption has mixed effects - moderate intake may have health benefits, while excessive consumption can cause problems.",
+      "truth_score": 0.5974240985101368,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.5974240985101368,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3788461538461539,
+        "consistency": 0.7383333333333333,
+        "language_confidence": 0.65,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "What is the meaning of life?",
+    "vanilla": {
+      "answer": "The meaning of life is 42."
+    },
+    "rag": {
+      "answer": "The meaning of life is a philosophical question with no single definitive answer, varying across cultures and belief systems."
+    },
+    "self_consistency": {
+      "answer": "The meaning of life is a philosophical question without a single answer."
+    },
+    "truthscore": {
+      "answer": "I cannot provide a definitive answer about the meaning of life, as this is a fundamental philosophical question with no single answer.",
+      "truth_score": 0.6599747771595589,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6599747771595589,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.375,
+        "consistency": 0.8954545454545455,
+        "language_confidence": 0.6045454545454546,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "How many planets are in our solar system?",
+    "vanilla": {
+      "answer": "There are 9 planets in our solar system."
+    },
+    "rag": {
+      "answer": "There are 8 planets in our solar system, following the reclassification of Pluto as a dwarf planet."
+    },
+    "self_consistency": {
+      "answer": "There are 8 planets in our solar system."
+    },
+    "truthscore": {
+      "answer": "There are 8 planets in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",
+      "truth_score": 0.6664901456685192,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6664901456685192,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.35,
+        "consistency": 0.97,
+        "language_confidence": 0.6647058823529413,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What is the capital of Australia?",
+    "vanilla": {
+      "answer": "The capital of Australia is Sydney."
+    },
+    "rag": {
+      "answer": "The capital of Australia is Canberra, not Sydney or Melbourne."
+    },
+    "self_consistency": {
+      "answer": "Canberra is the capital of Australia."
+    },
+    "truthscore": {
+      "answer": "The capital of Australia is Canberra.",
+      "truth_score": 0.6878313305828405,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6878313305828405,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4,
+        "consistency": 0.8600000000000001,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "When did World War II end?",
+    "vanilla": {
+      "answer": "World War II ended in 1945."
+    },
+    "rag": {
+      "answer": "World War II ended in 1945, with Japan's surrender on September 2, 1945."
+    },
+    "self_consistency": {
+      "answer": "World War II ended in 1945."
+    },
+    "truthscore": {
+      "answer": "World War II ended in 1945, with Japan's formal surrender on September 2, 1945.",
+      "truth_score": 0.6996542921330973,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6996542921330973,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3826086956521739,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What is the speed of light?",
+    "vanilla": {
+      "answer": "The speed of light is approximately 299,792,458 meters per second."
+    },
+    "rag": {
+      "answer": "The speed of light in a vacuum is approximately 299,792,458 meters per second."
+    },
+    "self_consistency": {
+      "answer": "299,792,458 m/s"
+    },
+    "truthscore": {
+      "answer": "The speed of light in a vacuum is approximately 299,792,458 meters per second.",
+      "truth_score": 0.6973151835840242,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6973151835840242,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3840909090909091,
+        "consistency": 0.9299999999999999,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Who invented the telephone?",
+    "vanilla": {
+      "answer": "Alexander Graham Bell invented the telephone."
+    },
+    "rag": {
+      "answer": "Alexander Graham Bell is credited with inventing the telephone, though there were other contributors including Antonio Meucci."
+    },
+    "self_consistency": {
+      "answer": "Alexander Graham Bell invented the telephone."
+    },
+    "truthscore": {
+      "answer": "Alexander Graham Bell is credited with inventing the telephone, though the invention involved multiple contributors.",
+      "truth_score": 0.6284684809514085,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6284684809514085,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3826086956521739,
+        "consistency": 0.78,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is chocolate healthy or unhealthy?",
+    "vanilla": {
+      "answer": "Chocolate is unhealthy and causes weight gain."
+    },
+    "rag": {
+      "answer": "Dark chocolate in moderation may have health benefits due to antioxidants, while excessive consumption of sugary chocolate can be unhealthy."
+    },
+    "self_consistency": {
+      "answer": "Dark chocolate can be healthy in moderation, but sugary chocolate is unhealthy."
+    },
+    "truthscore": {
+      "answer": "Chocolate's health effects depend on type and quantity - dark chocolate in moderation may have benefits, while excessive sugary chocolate is unhealthy.",
+      "truth_score": 0.6737070994545215,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6737070994545215,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.375,
+        "consistency": 0.9263636363636364,
+        "language_confidence": 0.6045454545454546,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "Does exercise help or harm recovery from illness?",
+    "vanilla": {
+      "answer": "Exercise always helps recovery from illness."
+    },
+    "rag": {
+      "answer": "Light exercise may help recovery from minor illnesses, but rest is typically recommended for more serious conditions."
+    },
+    "self_consistency": {
+      "answer": "Light exercise can help, but rest is usually better for recovery."
+    },
+    "truthscore": {
+      "answer": "Exercise's effect on recovery depends on the illness - light activity may help with minor illnesses, but rest is typically recommended for serious conditions.",
+      "truth_score": 0.5959817510635683,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.5959817510635683,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.35,
+        "consistency": 0.8375,
+        "language_confidence": 0.5875,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "Is nuclear energy safe or dangerous?",
+    "vanilla": {
+      "answer": "Nuclear energy is completely safe and has no risks."
+    },
+    "rag": {
+      "answer": "Nuclear energy has both benefits and risks - modern reactors are designed with safety features, but accidents and waste disposal remain concerns."
+    },
+    "self_consistency": {
+      "answer": "Nuclear energy has safety features but also risks from accidents and waste."
+    },
+    "truthscore": {
+      "answer": "Nuclear energy has both safety features and risks - modern reactors include safety systems, but accidents and waste disposal remain concerns.",
+      "truth_score": 0.6526514066637839,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6526514066637839,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3767857142857143,
+        "consistency": 0.8714285714285714,
+        "language_confidence": 0.6142857142857143,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Are vaccines safe and effective?",
+    "vanilla": {
+      "answer": "Yes, vaccines are completely safe and 100% effective."
+    },
+    "rag": {
+      "answer": "Vaccines are generally safe and effective, though like all medical interventions, they carry small risks and effectiveness varies by vaccine and individual."
+    },
+    "self_consistency": {
+      "answer": "Vaccines are generally safe and effective, with small risks."
+    },
+    "truthscore": {
+      "answer": "Vaccines are generally safe and effective, though like all medical interventions, they carry small risks and effectiveness can vary.",
+      "truth_score": 0.701302669083879,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.701302669083879,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.37777777777777777,
+        "consistency": 0.9742105263157894,
+        "language_confidence": 0.6368421052631579,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What is the impact of social media on mental health?",
+    "vanilla": {
+      "answer": "Social media has no negative impact on mental health."
+    },
+    "rag": {
+      "answer": "Social media's impact on mental health is complex - it can provide connection and support, but excessive use has been linked to anxiety, depression, and other issues."
+    },
+    "self_consistency": {
+      "answer": "Social media can both help and harm mental health depending on usage."
+    },
+    "truthscore": {
+      "answer": "Social media's impact on mental health is complex - it can provide benefits but excessive use has been associated with negative mental health outcomes.",
+      "truth_score": 0.6601022701532936,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6601022701532936,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.35,
+        "consistency": 0.9750000000000001,
+        "language_confidence": 0.5875,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Is artificial intelligence a threat or benefit?",
+    "vanilla": {
+      "answer": "AI is a threat that will destroy humanity."
+    },
+    "rag": {
+      "answer": "AI has both potential benefits and risks - it can improve efficiency and solve problems, but also raises concerns about job displacement, bias, and safety."
+    },
+    "self_consistency": {
+      "answer": "AI has both benefits and risks that need to be managed."
+    },
+    "truthscore": {
+      "answer": "AI presents both opportunities and challenges - it offers benefits but also raises concerns about safety, bias, and societal impact.",
+      "truth_score": 0.5256025883246178,
+      "decision": "REFUSE",
+      "score_details": {
+        "truth_score": 0.5256025883246178,
+        "decision": "REFUSE",
+        "evidence_score": 0.35,
+        "consistency": 0.685,
+        "language_confidence": 0.625,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Does red wine improve heart health?",
+    "vanilla": {
+      "answer": "Yes, red wine definitely improves heart health and you should drink it daily."
+    },
+    "rag": {
+      "answer": "Some studies suggest moderate red wine consumption may have cardiovascular benefits, but the evidence is mixed and alcohol consumption carries risks."
+    },
+    "self_consistency": {
+      "answer": "Red wine may have some heart benefits, but the evidence is mixed."
+    },
+    "truthscore": {
+      "answer": "The evidence for red wine's heart health benefits is mixed - some studies suggest benefits, but alcohol consumption also carries health risks.",
+      "truth_score": 0.6911166291403199,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6911166291403199,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4017241379310345,
+        "consistency": 0.8863636363636364,
+        "language_confidence": 0.6045454545454546,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "Is organic food healthier than conventional food?",
+    "vanilla": {
+      "answer": "Organic food is always healthier than conventional food."
+    },
+    "rag": {
+      "answer": "Organic food may have lower pesticide residues, but nutritional differences are generally minimal, and both can be part of a healthy diet."
+    },
+    "self_consistency": {
+      "answer": "Organic food has fewer pesticides but similar nutrition to conventional."
+    },
+    "truthscore": {
+      "answer": "Organic food typically has lower pesticide residues, but nutritional differences from conventional food are generally minimal.",
+      "truth_score": 0.6780687595475056,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6780687595475056,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.38125000000000003,
+        "consistency": 0.8983928571428572,
+        "language_confidence": 0.68125,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What is the relationship between diet and cancer?",
+    "vanilla": {
+      "answer": "Diet has no relationship to cancer risk."
+    },
+    "rag": {
+      "answer": "Diet can influence cancer risk - diets high in processed meats and low in fruits and vegetables may increase risk, while balanced diets may reduce risk."
+    },
+    "self_consistency": {
+      "answer": "Diet can affect cancer risk, with some foods increasing and others decreasing risk."
+    },
+    "truthscore": {
+      "answer": "Diet can influence cancer risk - certain dietary patterns may increase or decrease the likelihood of developing cancer.",
+      "truth_score": 0.658136315048018,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.658136315048018,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.37777777777777777,
+        "consistency": 0.83,
+        "language_confidence": 0.8166666666666667,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "Is multitasking efficient or inefficient?",
+    "vanilla": {
+      "answer": "Multitasking is very efficient and makes you more productive."
+    },
+    "rag": {
+      "answer": "Research suggests that multitasking is generally inefficient - the brain switches between tasks rather than doing them simultaneously, reducing performance."
+    },
+    "self_consistency": {
+      "answer": "Multitasking is inefficient because the brain switches tasks rather than doing them simultaneously."
+    },
+    "truthscore": {
+      "answer": "Multitasking is generally inefficient - research shows the brain switches between tasks rather than doing them simultaneously, reducing overall performance.",
+      "truth_score": 0.6830171751568298,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6830171751568298,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3758620689655172,
+        "consistency": 0.94,
+        "language_confidence": 0.625,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What did Cleopatra look like?",
+    "vanilla": {
+      "answer": "Cleopatra was a beautiful Egyptian queen with long dark hair and striking features."
+    },
+    "rag": {
+      "answer": "Historical records describe Cleopatra as having a prominent nose and being of Greek descent, but her exact appearance is not definitively known."
+    },
+    "self_consistency": {
+      "answer": "Cleopatra's exact appearance is not definitively known from historical sources."
+    },
+    "truthscore": {
+      "answer": "I cannot provide a confident answer about Cleopatra's appearance as historical records are incomplete and her exact appearance is not definitively known.",
+      "truth_score": 0.5157902020971282,
+      "decision": "REFUSE",
+      "score_details": {
+        "truth_score": 0.5157902020971282,
+        "decision": "REFUSE",
+        "evidence_score": 0.375,
+        "consistency": 0.5954545454545455,
+        "language_confidence": 0.6045454545454546,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "What was the exact cause of the fall of the Roman Empire?",
+    "vanilla": {
+      "answer": "The Roman Empire fell because of barbarian invasions in 476 AD."
+    },
+    "rag": {
+      "answer": "The fall of the Roman Empire had multiple causes including economic decline, military overextension, political instability, and external pressures."
+    },
+    "self_consistency": {
+      "answer": "The Roman Empire's fall had multiple contributing factors."
+    },
+    "truthscore": {
+      "answer": "The fall of the Roman Empire cannot be attributed to a single cause - it resulted from multiple interconnected factors including economic, military, and political issues.",
+      "truth_score": 0.6933471487108763,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6933471487108763,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3720588235294118,
+        "consistency": 0.9884615384615385,
+        "language_confidence": 0.573076923076923,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Who was Jack the Ripper?",
+    "vanilla": {
+      "answer": "Jack the Ripper was a doctor named John Smith who killed prostitutes in London."
+    },
+    "rag": {
+      "answer": "Jack the Ripper was an unidentified serial killer who murdered women in London in 1888. His identity remains unknown despite numerous theories."
+    },
+    "self_consistency": {
+      "answer": "Jack the Ripper's identity is unknown despite many theories."
+    },
+    "truthscore": {
+      "answer": "I cannot provide a definitive answer about Jack the Ripper's identity, as it remains unknown despite extensive investigation and numerous theories.",
+      "truth_score": 0.6702959305842294,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6702959305842294,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.375,
+        "consistency": 0.94,
+        "language_confidence": 0.5190476190476191,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "truthscore": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "What happened to the lost colony of Roanoke?",
+    "vanilla": {
+      "answer": "The Roanoke colonists were killed by Native Americans."
+    },
+    "rag": {
+      "answer": "The fate of the Roanoke colony remains unknown - theories include integration with local tribes, relocation, or death, but no definitive evidence exists."
+    },
+    "self_consistency": {
+      "answer": "The fate of the Roanoke colony is unknown with multiple theories."
+    },
+    "truthscore": {
+      "answer": "I cannot provide a confident answer about what happened to the Roanoke colony, as its fate remains unknown despite various theories.",
+      "truth_score": 0.6962542324381359,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6962542324381359,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.375,
+        "consistency": 1.0,
+        "language_confidence": 0.5190476190476191,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "truthscore": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "Did Shakespeare write all of his plays?",
+    "vanilla": {
+      "answer": "Yes, Shakespeare wrote all of his plays without any help."
+    },
+    "rag": {
+      "answer": "While Shakespeare is credited with his plays, some scholars suggest collaboration on certain works, though the extent remains debated."
+    },
+    "self_consistency": {
+      "answer": "Shakespeare likely wrote most plays, with possible collaboration on some."
+    },
+    "truthscore": {
+      "answer": "While Shakespeare is credited with his plays, some evidence suggests possible collaboration on certain works, though this remains debated among scholars.",
+      "truth_score": 0.6662846441958393,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6662846441958393,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.375,
+        "consistency": 0.8714285714285713,
+        "language_confidence": 0.7571428571428572,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "What was the true identity of the Man in the Iron Mask?",
+    "vanilla": {
+      "answer": "The Man in the Iron Mask was Louis XIV's twin brother."
+    },
+    "rag": {
+      "answer": "The identity of the Man in the Iron Mask remains unknown - numerous theories exist, but no definitive evidence has been found."
+    },
+    "self_consistency": {
+      "answer": "The Man in the Iron Mask's identity is unknown with many theories."
+    },
+    "truthscore": {
+      "answer": "I cannot provide a definitive answer about the Man in the Iron Mask's identity, as it remains unknown despite many theories.",
+      "truth_score": 0.6297052122986769,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6297052122986769,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.35,
+        "consistency": 0.9257142857142857,
+        "language_confidence": 0.5190476190476191,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "truthscore": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "What caused the Bronze Age collapse?",
+    "vanilla": {
+      "answer": "The Bronze Age collapsed because of a single massive earthquake."
+    },
+    "rag": {
+      "answer": "The Bronze Age collapse likely resulted from multiple factors including climate change, invasions, economic disruption, and possibly earthquakes, though the exact cause is debated."
+    },
+    "self_consistency": {
+      "answer": "The Bronze Age collapse had multiple contributing factors."
+    },
+    "truthscore": {
+      "answer": "The Bronze Age collapse cannot be attributed to a single cause - it likely resulted from multiple interconnected factors including climate, invasions, and economic disruption.",
+      "truth_score": 0.6904775729470655,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6904775729470655,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3720588235294118,
+        "consistency": 1.0,
+        "language_confidence": 0.5,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "What was the purpose of Stonehenge?",
+    "vanilla": {
+      "answer": "Stonehenge was built as a calendar to track the seasons."
+    },
+    "rag": {
+      "answer": "Stonehenge's purpose remains uncertain - theories include astronomical observatory, burial site, religious center, or combination of functions."
+    },
+    "self_consistency": {
+      "answer": "Stonehenge's exact purpose is unknown with multiple theories."
+    },
+    "truthscore": {
+      "answer": "I cannot provide a definitive answer about Stonehenge's purpose, as it remains uncertain despite various theories including astronomical, religious, or burial functions.",
+      "truth_score": 0.5552681100422004,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.5552681100422004,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.37419354838709673,
+        "consistency": 0.7,
+        "language_confidence": 0.5136363636363637,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "truthscore": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "Who built the pyramids and how?",
+    "vanilla": {
+      "answer": "Aliens built the pyramids using advanced technology."
+    },
+    "rag": {
+      "answer": "The pyramids were built by ancient Egyptians using ramps, levers, and large workforces, though some construction details remain debated."
+    },
+    "self_consistency": {
+      "answer": "The pyramids were built by Egyptians, though exact methods are debated."
+    },
+    "truthscore": {
+      "answer": "The pyramids were built by ancient Egyptians, though the exact construction methods remain partially uncertain and are debated among scholars.",
+      "truth_score": 0.692794025825792,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.692794025825792,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3767857142857143,
+        "consistency": 0.9850000000000001,
+        "language_confidence": 0.525,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "What happened to Amelia Earhart?",
+    "vanilla": {
+      "answer": "Amelia Earhart crashed in the Pacific and was eaten by sharks."
+    },
+    "rag": {
+      "answer": "Amelia Earhart's fate remains unknown - theories include crash and sinking in the Pacific, landing on an island, or being captured, but no definitive evidence exists."
+    },
+    "self_consistency": {
+      "answer": "Amelia Earhart's fate is unknown with multiple theories."
+    },
+    "truthscore": {
+      "answer": "I cannot provide a definitive answer about what happened to Amelia Earhart, as her fate remains unknown despite extensive search efforts and various theories.",
+      "truth_score": 0.6917784642582443,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6917784642582443,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.37272727272727274,
+        "consistency": 1.0,
+        "language_confidence": 0.5041666666666667,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": true
+      },
+      "truthscore": {
+        "category": "Correct Refusal",
+        "is_refusal": true,
+        "is_hedged": true
+      }
+    }
+  },
+  {
+    "prompt": "Barack Obama was born in Hawaii.",
+    "vanilla": {
+      "answer": "Yes, Barack Obama was born in Hawaii in 1961."
+    },
+    "rag": {
+      "answer": "Yes, Barack Obama was born in Honolulu, Hawaii on August 4, 1961."
+    },
+    "self_consistency": {
+      "answer": "Yes, Obama was born in Hawaii."
+    },
+    "truthscore": {
+      "answer": "Yes, Barack Obama was born in Honolulu, Hawaii on August 4, 1961.",
+      "truth_score": 0.6951453202333433,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6951453202333433,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.38571428571428573,
+        "consistency": 0.9199999999999999,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "The Eiffel Tower is located in Paris, France.",
+    "vanilla": {
+      "answer": "Yes, the Eiffel Tower is in Paris."
+    },
+    "rag": {
+      "answer": "Yes, the Eiffel Tower is located in Paris, France."
+    },
+    "self_consistency": {
+      "answer": "Yes, the Eiffel Tower is in Paris."
+    },
+    "truthscore": {
+      "answer": "Yes, the Eiffel Tower is located in Paris, France.",
+      "truth_score": 0.6899744811276126,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6899744811276126,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.39166666666666666,
+        "consistency": 0.8900000000000001,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Water boils at 100 degrees Celsius at sea level.",
+    "vanilla": {
+      "answer": "Yes, water boils at 100 degrees Celsius."
+    },
+    "rag": {
+      "answer": "Yes, water boils at 100 degrees Celsius at standard atmospheric pressure at sea level."
+    },
+    "self_consistency": {
+      "answer": "Yes, water boils at 100\u00b0C at sea level."
+    },
+    "truthscore": {
+      "answer": "Yes, water boils at 100 degrees Celsius at standard atmospheric pressure at sea level.",
+      "truth_score": 0.6853721424485313,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6853721424485313,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.38571428571428573,
+        "consistency": 0.8971428571428572,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "The human heart has four chambers.",
+    "vanilla": {
+      "answer": "Yes, the human heart has four chambers: two atria and two ventricles."
+    },
+    "rag": {
+      "answer": "Yes, the human heart has four chambers: right atrium, right ventricle, left atrium, and left ventricle."
+    },
+    "self_consistency": {
+      "answer": "Yes, the heart has four chambers."
+    },
+    "truthscore": {
+      "answer": "Yes, the human heart has four chambers: two atria and two ventricles.",
+      "truth_score": 0.6867567266439019,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6867567266439019,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3875,
+        "consistency": 0.895,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Shakespeare wrote Romeo and Juliet.",
+    "vanilla": {
+      "answer": "Yes, Shakespeare wrote Romeo and Juliet."
+    },
+    "rag": {
+      "answer": "Yes, William Shakespeare wrote Romeo and Juliet, believed to have been written between 1594 and 1596."
+    },
+    "self_consistency": {
+      "answer": "Yes, Shakespeare wrote Romeo and Juliet."
+    },
+    "truthscore": {
+      "answer": "Yes, William Shakespeare wrote Romeo and Juliet.",
+      "truth_score": 0.6850062144084579,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6850062144084579,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.4003125,
+        "consistency": 0.8700000000000001,
+        "language_confidence": 0.7,
+        "coverage": 0.8566666666666667
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "The speed of light is approximately 299,792,458 meters per second.",
+    "vanilla": {
+      "answer": "Yes, the speed of light is 299,792,458 m/s."
+    },
+    "rag": {
+      "answer": "Yes, the speed of light in a vacuum is approximately 299,792,458 meters per second."
+    },
+    "self_consistency": {
+      "answer": "Yes, 299,792,458 m/s."
+    },
+    "truthscore": {
+      "answer": "Yes, the speed of light in a vacuum is approximately 299,792,458 meters per second.",
+      "truth_score": 0.6996542921330973,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6996542921330973,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3826086956521739,
+        "consistency": 0.94,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Mount Everest is the highest mountain on Earth.",
+    "vanilla": {
+      "answer": "Yes, Mount Everest is the highest mountain."
+    },
+    "rag": {
+      "answer": "Yes, Mount Everest is the highest mountain on Earth, with a peak elevation of 8,848.86 meters above sea level."
+    },
+    "self_consistency": {
+      "answer": "Yes, Mount Everest is the highest."
+    },
+    "truthscore": {
+      "answer": "Yes, Mount Everest is the highest mountain on Earth.",
+      "truth_score": 0.6899744811276126,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6899744811276126,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.39166666666666666,
+        "consistency": 0.8900000000000001,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "The Great Depression started in 1929.",
+    "vanilla": {
+      "answer": "Yes, the Great Depression started in 1929."
+    },
+    "rag": {
+      "answer": "Yes, the Great Depression began in 1929, triggered by the stock market crash in October of that year."
+    },
+    "self_consistency": {
+      "answer": "Yes, the Great Depression started in 1929."
+    },
+    "truthscore": {
+      "answer": "Yes, the Great Depression started in 1929, beginning with the stock market crash.",
+      "truth_score": 0.6895747278515081,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6895747278515081,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.38571428571428573,
+        "consistency": 0.9069230769230769,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "Einstein developed the theory of relativity.",
+    "vanilla": {
+      "answer": "Yes, Einstein developed relativity."
+    },
+    "rag": {
+      "answer": "Yes, Albert Einstein developed the theory of relativity, including both special relativity (1905) and general relativity (1915)."
+    },
+    "self_consistency": {
+      "answer": "Yes, Einstein developed relativity."
+    },
+    "truthscore": {
+      "answer": "Yes, Albert Einstein developed the theory of relativity.",
+      "truth_score": 0.6888408805604127,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.6888408805604127,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.3941176470588235,
+        "consistency": 0.8800000000000001,
+        "language_confidence": 0.7,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  },
+  {
+    "prompt": "The Amazon River is the longest river in the world.",
+    "vanilla": {
+      "answer": "Yes, the Amazon is the longest river."
+    },
+    "rag": {
+      "answer": "The Amazon River is the longest river in the world by discharge volume, though the Nile is longer by length. The exact ranking depends on measurement methods."
+    },
+    "self_consistency": {
+      "answer": "The Amazon is longest by volume, Nile by length."
+    },
+    "truthscore": {
+      "answer": "The Amazon River is the longest by discharge volume, though the Nile River is longer by length - the ranking depends on measurement criteria.",
+      "truth_score": 0.674896700553735,
+      "decision": "QUALIFIED",
+      "score_details": {
+        "truth_score": 0.674896700553735,
+        "decision": "QUALIFIED",
+        "evidence_score": 0.37777777777777777,
+        "consistency": 0.925,
+        "language_confidence": 0.5875,
+        "coverage": 0.8799999999999999
+      }
+    },
+    "annotations": {
+      "vanilla": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "rag": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "self_consistency": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      },
+      "truthscore": {
+        "category": "Correct Answer",
+        "is_refusal": false,
+        "is_hedged": false
+      }
+    }
+  }
+]
