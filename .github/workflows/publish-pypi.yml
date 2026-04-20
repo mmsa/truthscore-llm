@@ -1,0 +1,49 @@
+# Publish truthscore-llm to PyPI when a GitHub Release is published, or manually.
+#
+# Recommended: PyPI "Trusted Publishing" (OIDC) — no long-lived API token.
+# 1. PyPI → your project → Settings → Publishing → Add pending publisher
+# 2. Owner: mmsa (or your org), repo: truthscore-llm, workflow: publish-pypi.yml, environment: (leave blank or match below)
+# 3. Merge this workflow, then the next successful run can complete OIDC registration on PyPI.
+#
+# Fallback: add repository secret PYPI_API_TOKEN and uncomment the `password` input below.
+
+name: Publish to PyPI
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install build tools
+        run: |
+          python -m pip install -U pip build twine
+
+      - name: Build sdist and wheel
+        run: python -m build
+
+      - name: Check distributions
+        run: twine check dist/*
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          # Trusted Publishing (OIDC): leave password unset when PyPI pending publisher is approved.
+          # If you use an API token instead, set secret PYPI_API_TOKEN and uncomment:
+          # password: ${{ secrets.PYPI_API_TOKEN }}
+          print-hash: true
