@@ -14,6 +14,17 @@ from typing import Any, Dict, List, Optional, Protocol, Sequence
 
 from truthscore.types import ClaimLabel, ClaimRecord
 
+# Word-boundary negation cues in evidence. Substring checks like ``"not" in s`` fire on
+# "annotation", "nothing", "cannot", etc., and falsely veto otherwise supported claims.
+_EVIDENCE_NEGATION_RE = re.compile(
+    r"(?:"
+    r"\bnot\b|\bno\b|\bnor\b|\bnever\b|\bneither\b|\bnone\b|\bnothing\b|\bnobody\b|"
+    r"\bnowhere\b|\bwithout\b|\bcannot\b|"
+    r"\b\w+n't\b"
+    r")",
+    re.IGNORECASE,
+)
+
 
 class ClaimVerifier(Protocol):
     def verify(
@@ -173,11 +184,26 @@ class SimilarityEvidenceVerifier:
 
     @staticmethod
     def _evidence_negation_unmirrored(claim_lower: str, ev_lower: str) -> bool:
-        if "not" not in ev_lower and "n't" not in ev_lower and " no " not in ev_lower:
+        if not _EVIDENCE_NEGATION_RE.search(ev_lower):
             return False
-        if "not" in claim_lower or "n't" in claim_lower:
+        if _EVIDENCE_NEGATION_RE.search(claim_lower):
             return False
         return True
+
+    def _best_sentence_lower(self, claim: str, full_text: str) -> str:
+        """
+        For negation heuristics, only inspect the passage sentence that aligns most
+        with the claim. Long Wikipedia extracts often mention ``cannot`` / ``not``
+        in unrelated sentences, which should not veto a clearly entailed first sentence.
+        """
+        t = (full_text or "").strip()
+        if not t:
+            return ""
+        parts = [p.strip() for p in re.split(r"(?<=[.!?])\s+", t) if p.strip()]
+        if len(parts) <= 1:
+            return t.lower()
+        best = max(parts, key=lambda s: float(self._vectorizer.similarity(claim, s)))
+        return best.lower()
 
     def verify(
         self,
@@ -203,11 +229,13 @@ class SimilarityEvidenceVerifier:
                 best = s
                 best_doc = dict(doc)
 
-        best_text = ((best_doc.get("text") or "") if best_doc else "").lower()
+        best_raw = (best_doc.get("text") or "") if best_doc else ""
+        best_text = best_raw.lower()
+        neg_scope = self._best_sentence_lower(claim, best_raw)
         merged_lower = self._top_evidence_blob(evidence, k=4)
         claim_lower = claim.lower()
         missing = self._missing_content_tokens(claim, merged_lower)
-        neg_unmirrored = self._evidence_negation_unmirrored(claim_lower, best_text)
+        neg_unmirrored = self._evidence_negation_unmirrored(claim_lower, neg_scope)
 
         if missing:
             label = ClaimLabel.UNSUPPORTED

@@ -1,6 +1,6 @@
 # TruthScore-LLM
 
-**Current release: 0.2.0** — Claim-grounded truth evaluation for LLM outputs: per-claim retrieval and verification, explicit risk signals (unsupported claims, contradictions, linguistic overclaim), and an optional **production** path (Wikipedia or file corpus + similarity or OpenAI judge) without requiring cloud APIs by default.
+**Current release: 0.2.1** — Claim-grounded truth evaluation for LLM outputs: per-claim retrieval and verification, explicit risk signals (unsupported claims, contradictions, linguistic overclaim), and an optional **production** path (Wikipedia or file corpus + similarity or OpenAI judge) without requiring cloud APIs by default.
 
 A research-oriented Python library for evaluating how well model answers are supported by evidence, when to accept or refuse, and how to wire real corpora and judges for closer-to-deployment experiments.
 
@@ -14,6 +14,10 @@ From **0.2.0** onward, the default **`TruthScorer`** path is **claim-grounded**:
 - **Linguistic risk**: Hedging, overclaim, and related cues feed an explicit **linguistic risk** signal.
 
 These signals feed a single **truth score** (0.0 to 1.0) and a categorical **decision** (ACCEPT, QUALIFIED, or REFUSE).
+
+**What’s new in 0.2.1**
+
+- **`SimilarityEvidenceVerifier`**: word-boundary negation detection and sentence-scoped checks so long Wikipedia extracts do not spuriously mark supported claims as unsupported (regression tests added). **`examples/wikipedia_example.py`** for live Wikipedia scoring.
 
 **What’s new in 0.2.0**
 
@@ -192,11 +196,12 @@ truthscore-llm/
 ├── experiments/             # Research scripts (optional [experiments] extra)
 ├── examples/
 │   ├── example.py
-│   └── production_example.py
+│   ├── production_example.py
+│   └── wikipedia_example.py
 ├── tests/
 ├── paper.md, paper.bib      # JOSS-style paper sources
 ├── README.md
-└── pyproject.toml           # Version 0.2.0
+└── pyproject.toml           # Version 0.2.1
 ```
 
 ## Evidence grounding (replacing `DEFAULT_PASSAGES`)
@@ -276,7 +281,7 @@ scorer = create_production_scorer(verifier=CallableClaimVerifier(my_fn))
 out = scorer.score("What is the capital of France?", "The capital of France is Paris.")
 ```
 
-See `truthscore/production.py` and `examples/production_example.py`.
+See `truthscore/production.py`, `examples/production_example.py`, and `examples/wikipedia_example.py` (live Wikipedia + similarity judge; needs network).
 
 ## Configuration cookbook (runnable examples)
 
@@ -558,6 +563,8 @@ python -m unittest tests.test_score
 ```bash
 python examples/example.py
 python examples/production_example.py
+# Live Wikipedia (set TRUTHSCORE_USER_AGENT for production):
+PYTHONPATH=. python examples/wikipedia_example.py   # from repo; or after pip install
 ```
 
 ## Research disclaimer
@@ -584,7 +591,7 @@ MIT License
 
 ## Citation
 
-If you use this library in your research, please cite (version **0.2.0**):
+If you use this library in your research, please cite (version **0.2.1**):
 
 ```bibtex
 @software{mostafa2025truthscore,
@@ -592,7 +599,7 @@ If you use this library in your research, please cite (version **0.2.0**):
   author={Mostafa, Mohamed},
   year={2026},
   url={https://github.com/mmsa/truthscore-llm},
-  version={0.2.0}
+  version={0.2.1}
 }
 ```
 

@@ -15,7 +15,7 @@ from truthscore.production import create_production_scorer
 from truthscore.io_corpus import load_passages_from_file
 from truthscore.wikipedia_retriever import WikipediaRetriever
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 __all__ = [
     "TruthScorer",
     "TruthScoreConfig",
