@@ -192,7 +192,8 @@ truthscore-llm/
 ├── experiments/             # Research scripts (optional [experiments] extra)
 ├── examples/
 │   ├── example.py
-│   └── production_example.py
+│   ├── production_example.py
+│   └── wikipedia_example.py
 ├── tests/
 ├── paper.md, paper.bib      # JOSS-style paper sources
 ├── README.md
@@ -276,7 +277,7 @@ scorer = create_production_scorer(verifier=CallableClaimVerifier(my_fn))
 out = scorer.score("What is the capital of France?", "The capital of France is Paris.")
 ```
 
-See `truthscore/production.py` and `examples/production_example.py`.
+See `truthscore/production.py`, `examples/production_example.py`, and `examples/wikipedia_example.py` (live Wikipedia + similarity judge; needs network).
 
 ## Configuration cookbook (runnable examples)
 
@@ -558,6 +559,8 @@ python -m unittest tests.test_score
 ```bash
 python examples/example.py
 python examples/production_example.py
+# Live Wikipedia (set TRUTHSCORE_USER_AGENT for production):
+PYTHONPATH=. python examples/wikipedia_example.py   # from repo; or after pip install
 ```
 
 ## Research disclaimer
