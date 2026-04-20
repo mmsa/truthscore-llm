@@ -8,9 +8,8 @@ tags:
   - hallucination detection
 authors:
   - name: Mohamed Mostafa
-    orcid: 0000-0000-0000-0000
     affiliation: "Independent Researcher"
-date: 2025-01-27
+date: 2026-04-20
 bibliography: paper.bib
 ---
 
@@ -18,7 +17,7 @@ bibliography: paper.bib
 
 TruthScore-LLM is a Python library that implements verification-gated inference for large language models (LLMs). The library evaluates the truthfulness of LLM-generated answers by combining evidence agreement, self-consistency, retrieval coverage, and language confidence metrics into a single truth score. This score enables LLMs to make informed decisions about when to accept, qualify, or refuse to answer questions, reducing overconfident errors on unanswerable or uncertain queries.
 
-The library provides a simple API for integrating truthfulness evaluation into LLM inference pipelines. It computes a truth score (0.0 to 1.0) and produces categorical decisions (ACCEPT, QUALIFIED, or REFUSE) based on configurable thresholds. TruthScore-LLM is designed as a research tool with modular components that can be extended with production-grade retrieval systems, natural language inference models, and consistency checking mechanisms.
+The library provides a simple API for integrating truthfulness evaluation into LLM inference pipelines. It computes a truth score (0.0 to 1.0) and produces categorical decisions (ACCEPT, QUALIFIED, or REFUSE) based on configurable thresholds. A production-oriented path supports Wikipedia or file-backed corpora with configurable claim judges (similarity-based by default, optional OpenAI-compatible LLM-as-judge). TruthScore-LLM is designed as a research tool with modular components that can be extended with vector retrieval, natural language inference models, and consistency checking mechanisms.
 
 # Statement of Need
 
@@ -47,7 +46,7 @@ The library makes acceptance decisions based on configurable thresholds:
 - **QUALIFIED**: 0.55 ≤ truth_score < 0.75 (moderate confidence, acceptable evidence)
 - **REFUSE**: truth_score < 0.55 (low confidence, insufficient or contradictory evidence)
 
-The default implementation uses heuristic-based placeholders for retrieval and NLI components, designed to be deterministic for testing and research purposes. The modular architecture allows users to replace these components with production-grade systems such as vector databases for retrieval or trained NLI models (e.g., BART, RoBERTa-based systems).
+The default research-oriented path uses lightweight heuristics for some components, designed to be deterministic for testing. The modular architecture allows users to plug in production-grade retrieval (including bundled Wikipedia and corpus-backed retrievers), trained NLI models (e.g., BART, RoBERTa-based systems), and optional LLM judges.
 
 # Evaluation
 
@@ -69,11 +68,11 @@ The evaluation shows that TruthScore reduces overconfident errors by refusing an
 
 # Limitations
 
-The current implementation uses placeholder components for retrieval and natural language inference, designed to be deterministic for research and testing purposes. These heuristics should be replaced with production-grade systems for real-world deployment. Specifically:
+Some code paths still use lightweight heuristics for research and testing; demanding deployments should prefer trained models and scalable retrieval. Specifically:
 
-- **Retrieval**: The current implementation uses simple keyword-based heuristics. Production systems should integrate vector databases or semantic search engines.
+- **Retrieval**: Beyond heuristics, the library includes optional Wikipedia and corpus-backed retrieval; vector databases or semantic search engines remain appropriate for large-scale deployment.
 
-- **Natural Language Inference**: The current NLI component uses basic text similarity. Production systems should use trained NLI models (e.g., BART, RoBERTa-based models) for accurate entailment checking.
+- **Natural Language Inference**: Optional dependency paths support trained NLI models (e.g., BART, RoBERTa-based models) for accurate entailment checking when installed.
 
 - **Consistency Evaluation**: The consistency module uses heuristic-based checks. More sophisticated approaches could include multiple sampling with agreement metrics or dedicated contradiction detection models.
 
