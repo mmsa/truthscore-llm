@@ -78,3 +78,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Local evaluation runs (may contain model outputs)
+eval/results/
+
