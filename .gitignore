@@ -80,4 +80,5 @@ dmypy.json
 
 # Local evaluation runs (may contain model outputs)
 eval/results/
+eval/epistemic_stress/results/
 
