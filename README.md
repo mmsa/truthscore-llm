@@ -192,7 +192,8 @@ truthscore-llm/
 ├── experiments/             # Research scripts (optional [experiments] extra)
 ├── examples/
 │   ├── example.py
-│   └── production_example.py
+│   ├── production_example.py
+│   └── wikipedia_example.py
 ├── tests/
 ├── paper.md, paper.bib      # JOSS-style paper sources
 ├── README.md
@@ -558,6 +559,8 @@ python -m unittest tests.test_score
 ```bash
 python examples/example.py
 python examples/production_example.py
+# Live Wikipedia + similarity judge (needs network):
+PYTHONPATH=. python examples/wikipedia_example.py   # from repo; or run after pip install
 ```
 
 ## Research disclaimer
